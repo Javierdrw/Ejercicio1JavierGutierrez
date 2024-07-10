@@ -419,9 +419,9 @@ if (persona1.edad>persona2.edad){
 // alert('nombre completo: '+primerNombre+' '+segundoNombre+' '+primerApellido+' '+segundoApellido+' tipo de sangre '+tipoDeSangre+' Fecha de Nacimiento '+fechaDeNacimiento
 // )
 
-// let pregunta = prompt('estan correcto los daton?')
+// let pregunta = confirm('estan correcto los daton?')
 
-// if (pregunta=='si'){
+// if (pregunta){
 //     let dni ={
 //         numeroDeIdentidad: 'xxxxxxxx',
 //         apellidos: primerApellido, segundoApellido,
