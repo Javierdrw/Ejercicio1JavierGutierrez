@@ -347,7 +347,7 @@ if (persona1.edad>persona2.edad){
 // let color =prompt('Hola bienvenido escoja un color')
 
 // switch (color) {
-//     case 'blanco'||'negro':
+//     case 'blanco'&&'negro':
 //         alert('Flata de color')
 //         break;
 //     case 'verde':
