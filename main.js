@@ -70,15 +70,15 @@ let persona2= {
 }
 
 if (persona1.altura>persona2.altura){
-    console.log('las persona '+persona1.nombre+' es mas alta');
+    alert('las persona '+persona1.nombre+' es mas alta');
 }else{
-    console.log('Las persona '+ persona2.nombre+ ' es mas alta');
+    alert('Las persona '+ persona2.nombre+ ' es mas alta');
 }
 
 if (persona1.edad>persona2.edad){
-    console.log(persona1.nombre+' es mayor que '+persona2.nombre);
+    alert(persona1.nombre+' es mayor que '+persona2.nombre);
 }else{
-    console.log(persona2.nombre+' es mayor que '+persona1.nombre);
+    alert(persona2.nombre+' es mayor que '+persona1.nombre);
 }
 
 // 6. Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión
