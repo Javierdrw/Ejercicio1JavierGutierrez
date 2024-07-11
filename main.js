@@ -86,17 +86,17 @@ if (persona1.edad>persona2.edad){
 // una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como
 // mínimo.
 
-// let nombre = prompt('escriba su nombre')
-// let edad = parseInt (prompt('escriba su edad'))
-// let altura = parseInt(prompt('escribe tu altura'))
-// let vision = parseInt(prompt('escribe tu niver de vision'))
+let nombre = prompt('escriba su nombre')
+let edad = parseInt (prompt('escriba su edad'))
+let altura = parseInt(prompt('escribe tu altura'))
+let vision = parseInt(prompt('escribe tu niver de vision'))
 
-// if (edad>=18 && altura>150 && vision>7) {
-//     console.log(nombre+' Felicidades cumples con los requisitos aqui esta tu PASE ya puedes conducir');
-// } else {
-//     console.log('lamento informarle que no cumples con los requisitos minimos para conducir');
+if (edad>=18 && altura>150 && vision>7) {
+    console.log(nombre+' Felicidades cumples con los requisitos aqui esta tu PASE ya puedes conducir');
+} else {
+    console.log('lamento informarle que no cumples con los requisitos minimos para conducir');
     
-// }
+}
 
 // 7. Realizar un programa que permita el ingreso de los siguientes datos: Nombre, pase
 // (vip o normal), si posee entrada (si o no, s o n, true o false). Las personas que posean
@@ -109,27 +109,27 @@ if (persona1.edad>persona2.edad){
 // caso contrario a no querer comprar, mostrar mensaje de despedida.
 
 // respuesta 1
-// let nombre =prompt('cual es su nombre')
-// let pase = prompt('pase por favor')
-// let dinDis = parseInt (prompt('cuanto dinero tiene'))
+let nombre =prompt('cual es su nombre')
+let pase = prompt('pase por favor')
+let dinDis = parseInt (prompt('cuanto dinero tiene'))
 
 
 
-// if (nombre=== 'javier') {
-//     console.log('bienvenido señor Javier puede ingresar');
+if (nombre=== 'javier') {
+    console.log('bienvenido señor Javier puede ingresar');
     
-// }else if(pase==='vip'||pase==='normal'||pase==='entrada'){
-//     console.log('Bienvenido Sr '+nombre+' Puede ingresar');
+}else if(pase==='vip'||pase==='normal'||pase==='entrada'){
+    console.log('Bienvenido Sr '+nombre+' Puede ingresar');
 
-// }else if(dinDis>= 1000){
-//     let comprar = prompt('desea comprar una entrada')
-//     if (comprar==='si') {
-//         console.log('Venta de entrada EXITOSA Bienvenido');
+}else if(dinDis>= 1000){
+    let comprar = prompt('desea comprar una entrada')
+    if (comprar==='si') {
+        console.log('Venta de entrada EXITOSA Bienvenido');
         
-//     }
-// }else {
-//     console.log('disculpe no le alcanza para la compra de una entrada hasta luego');
-// }
+    }
+}else {
+    console.log('disculpe no le alcanza para la compra de una entrada hasta luego');
+}
 
 // respuesta 2
 // let pers1= {
@@ -199,144 +199,144 @@ if (persona1.edad>persona2.edad){
 // usas mucho código repetido, mas adelante veraz como realizar este juego de manera
 // más eficiente.
 
-// let numeroIncognita = 7
-// let numeroIngresado =parseInt(prompt('escribe un numero del 1 al 10'))
-// let intento = 3
+let numeroIncognita = 7
+let numeroIngresado =parseInt(prompt('escribe un numero del 1 al 10'))
+let intento = 3
 
-// if (numeroIngresado===numeroIncognita){
-//     console.log('Ganaste, haz adivinado el número.');
+if (numeroIngresado===numeroIncognita){
+    console.log('Ganaste, haz adivinado el número.');
 
-// }else if (numeroIngresado>numeroIncognita && intento!==0){
-//     intento--
-//     numeroIngresado =parseInt(prompt('ingresaste un numero mayor vuelve a intentar'))
-//     console.log(intento);
+}else if (numeroIngresado>numeroIncognita && intento!==0){
+    intento--
+    numeroIngresado =parseInt(prompt('ingresaste un numero mayor vuelve a intentar'))
+    console.log(intento);
 
-//     if (numeroIngresado===numeroIncognita){
-//         console.log('Ganaste, haz adivinado el número.');
+    if (numeroIngresado===numeroIncognita){
+        console.log('Ganaste, haz adivinado el número.');
 
-//     }else if (numeroIngresado>numeroIncognita && intento!==0){
-//         intento--
-//         numeroIngresado =parseInt(prompt('ingresaste un numero mayor vuelve a intentar'))
-//         console.log(intento);
-//         if (numeroIngresado===numeroIncognita){
-//             console.log('Ganaste, haz adivinado el número.');
-//         }else if(numeroIngresado<numeroIncognita){
-//             intento--
-//             alert('has superado el numero de intentos');
+    }else if (numeroIngresado>numeroIncognita && intento!==0){
+        intento--
+        numeroIngresado =parseInt(prompt('ingresaste un numero mayor vuelve a intentar'))
+        console.log(intento);
+        if (numeroIngresado===numeroIncognita){
+            console.log('Ganaste, haz adivinado el número.');
+        }else if(numeroIngresado<numeroIncognita){
+            intento--
+            alert('has superado el numero de intentos');
 
-//         }else{
-//             alert('has superado el numero de intentos');
-//         }
+        }else{
+            alert('has superado el numero de intentos');
+        }
 
 
-//     }else if(numeroIngresado<numeroIncognita && intento!==0){
-//             numeroIngresado= parseInt(prompt('el numero ingresado es menor, vuelve a intentarlo'))
-//             intento--
-//             console.log(intento); 
+    }else if(numeroIngresado<numeroIncognita && intento!==0){
+            numeroIngresado= parseInt(prompt('el numero ingresado es menor, vuelve a intentarlo'))
+            intento--
+            console.log(intento); 
 
-//             if (numeroIngresado===numeroIncognita){
-//                 console.log('Ganaste, haz adivinado el número.');
-//             }else if(numeroIngresado<numeroIncognita){
-//                 intento--
-//                 alert('has superado el numero de intentos') 
+            if (numeroIngresado===numeroIncognita){
+                console.log('Ganaste, haz adivinado el número.');
+            }else if(numeroIngresado<numeroIncognita){
+                intento--
+                alert('has superado el numero de intentos') 
     
-//             }else{
-//                 alert('has superado el numero de intentos') 
-//             }
-//         }
+            }else{
+                alert('has superado el numero de intentos') 
+            }
+        }
 
-// }else if (numeroIngresado<numeroIncognita && intento!==0){
-//     numeroIngresado= parseInt(prompt('el numero ingresado es menor, vuelve a intentarlo'))
-//     intento--
-//     console.log(intento); 
+}else if (numeroIngresado<numeroIncognita && intento!==0){
+    numeroIngresado= parseInt(prompt('el numero ingresado es menor, vuelve a intentarlo'))
+    intento--
+    console.log(intento); 
 
-//     if (numeroIngresado===numeroIncognita){
-//         console.log('Ganaste, haz adivinado el número.');
+    if (numeroIngresado===numeroIncognita){
+        console.log('Ganaste, haz adivinado el número.');
 
-//     }else if (numeroIngresado>numeroIncognita && intento!==0){
-//         intento--
-//         numeroIngresado =parseInt(prompt('ingresaste un numero mayor vuelve a intentar'))
-//         console.log(intento);
+    }else if (numeroIngresado>numeroIncognita && intento!==0){
+        intento--
+        numeroIngresado =parseInt(prompt('ingresaste un numero mayor vuelve a intentar'))
+        console.log(intento);
 
-//         if (numeroIngresado===numeroIncognita){
-//             console.log('Ganaste, haz adivinado el número.');
-//         }else if(numeroIngresado<numeroIncognita){
-//             intento--
-//             alert('has superado el numero de intentos') 
+        if (numeroIngresado===numeroIncognita){
+            console.log('Ganaste, haz adivinado el número.');
+        }else if(numeroIngresado<numeroIncognita){
+            intento--
+            alert('has superado el numero de intentos') 
 
-//         }else{
-//             alert('has superado el numero de intentos') 
-//         }
+        }else{
+            alert('has superado el numero de intentos') 
+        }
 
 
-//     }else if(numeroIngresado<numeroIncognita && intento!==0){
-//         numeroIngresado= parseInt(prompt('el numero ingresado es menor, vuelve a intentarlo'))
-//         intento--
-//         console.log(intento); 
+    }else if(numeroIngresado<numeroIncognita && intento!==0){
+        numeroIngresado= parseInt(prompt('el numero ingresado es menor, vuelve a intentarlo'))
+        intento--
+        console.log(intento); 
 
-//         if (numeroIngresado===numeroIncognita){
-//             console.log('Ganaste, haz adivinado el número.');
-//         }else if(numeroIngresado<numeroIncognita){
-//             intento--
-//             alert('has superado el numero de intentos') 
+        if (numeroIngresado===numeroIncognita){
+            console.log('Ganaste, haz adivinado el número.');
+        }else if(numeroIngresado<numeroIncognita){
+            intento--
+            alert('has superado el numero de intentos') 
 
-//         }else{
-//             alert('has superado el numero de intentos') 
-//         }
-//     }
+        }else{
+            alert('has superado el numero de intentos') 
+        }
+    }
   
-// }
+}
 
 // 9. Crear un programa que permita ingresar tu edad y decir si eres un infante (0 a 12
 //     años), adolescente (13 a 18 años), un mayor joven (19 a 45 años) o un anciano (mas de
 //     45 años), y en caso de ingresar una edad mayor a 100 mostrar un mensaje
 //     preguntando si en realidad tiene esa edad.
 
-// let edad = parseInt(prompt('Ingresa tu edad'))
+let edad = parseInt(prompt('Ingresa tu edad'))
 
-// if (edad<=12) {
-//     alert('Hola segun tu edad eres Infante')
-// } else if (edad>100){
-//     alert('En realidad tienes esa edad?.')
+if (edad<=12) {
+    alert('Hola segun tu edad eres Infante')
+} else if (edad>100){
+    alert('En realidad tienes esa edad?.')
     
-// }else if (edad>=45){
-//     alert('Hola segun tu edad eres Anciano')
-// }else if (edad>=19){
-//     alert('Hola segun tu edad eres un Joven Mayor')
-// }else{
-//     alert('Hola segun tu edad eres un Adolecente')
-// }
+}else if (edad>=45){
+    alert('Hola segun tu edad eres Anciano')
+}else if (edad>=19){
+    alert('Hola segun tu edad eres un Joven Mayor')
+}else{
+    alert('Hola segun tu edad eres un Adolecente')
+}
 
 // 10. Crear un programa que permita el ingreso de “PIEDRA”, “PAPEL” o “TIJERAS” a 2
 // jugadores y muestre en pantalla cual de los 2 ha ganado o si han empatado. En caso de
 // algún ingreso incorrecto mostrar por pantalla que uno de los jugadores ha hecho
 // trampa
 
-// let jugador1 = parseInt(prompt('Jugador1 Ingresa una Opcion: (1):Piedra, (2):Papel, (3):Tijera'))
-// let jugador2 = parseInt(prompt('Jugador2 Ingresa una Opcion: (1):Piedra, (2):Papel, (3):Tijera'))
+let jugador1 = parseInt(prompt('Jugador1 Ingresa una Opcion: (1):Piedra, (2):Papel, (3):Tijera'))
+let jugador2 = parseInt(prompt('Jugador2 Ingresa una Opcion: (1):Piedra, (2):Papel, (3):Tijera'))
 
-// if (jugador1==1 && jugador2==1) {
-//     alert('empate')
+if (jugador1==1 && jugador2==1) {
+    alert('empate')
     
-// }else if (jugador1==2 && jugador2==1) {
-//     alert('Jugador1 ha GANADO')
-// }else if (jugador1==3 && jugador2==1) {
-//     alert('Jugador2 ha GANADO')
-// }else if (jugador1==1 && jugador2==2) {
-//     alert('Jugador2 ha GANADO')
-// }else if (jugador1==1 && jugador2==3) {
-//     alert('Jugador1 ha GANADO')
-// }else if (jugador1==3 && jugador2==2) {
-//     alert('Jugador1 ha GANADO')
-// }else if (jugador1==2 && jugador2==3) {
-//     alert('Jugador2 ha GANADO')
-// }else if (jugador1==3 && jugador2==3) {
-//     alert('empate')
-// }else if (jugador1==2 && jugador2==2) {
-//     alert('empate')
-// }else {
-//     alert('Uno de los jugadores ha hecho trampa')
-// }
+}else if (jugador1==2 && jugador2==1) {
+    alert('Jugador1 ha GANADO')
+}else if (jugador1==3 && jugador2==1) {
+    alert('Jugador2 ha GANADO')
+}else if (jugador1==1 && jugador2==2) {
+    alert('Jugador2 ha GANADO')
+}else if (jugador1==1 && jugador2==3) {
+    alert('Jugador1 ha GANADO')
+}else if (jugador1==3 && jugador2==2) {
+    alert('Jugador1 ha GANADO')
+}else if (jugador1==2 && jugador2==3) {
+    alert('Jugador2 ha GANADO')
+}else if (jugador1==3 && jugador2==3) {
+    alert('empate')
+}else if (jugador1==2 && jugador2==2) {
+    alert('empate')
+}else {
+    alert('Uno de los jugadores ha hecho trampa')
+}
 
 // 11. Realizar un programa que permita el ingreso de un color y utilizando “switch” mostrar
 // por pantalla los siguientes mensajes según las opciones: Blanco o Negro: Falta de
@@ -344,31 +344,31 @@ if (persona1.edad>persona2.edad){
 // Rojo: El color del fuego, Marrón: el color de la tierra, y para cualquier otro valor:
 // Excelente elección, no lo teníamos pensado.
 
-// let color =prompt('Hola bienvenido escoja un color')
+let color =prompt('Hola bienvenido escoja un color')
 
-// switch (color) {
-//     case 'blanco'&&'negro':
-//         alert('Flata de color')
-//         break;
-//     case 'verde':
-//         alert('El color de la Naturaleza')
-//         break;
-//     case 'azul':
-//         alert('El color del agua')
-//         break;
-//     case 'amarillo':
-//         alert('El color del Sol')
-//         break;
-//     case 'rojo':
-//         alert('El color del Fuego')
-//         break;
-//     case 'marron':
-//         alert('El color de la tierra')
-//         break;
-//     default:
-//         alert('Excelente eleccion no lo tenia pensado')
-//         break;
-// }
+switch (color) {
+    case 'blanco'&&'negro':
+        alert('Flata de color')
+        break;
+    case 'verde':
+        alert('El color de la Naturaleza')
+        break;
+    case 'azul':
+        alert('El color del agua')
+        break;
+    case 'amarillo':
+        alert('El color del Sol')
+        break;
+    case 'rojo':
+        alert('El color del Fuego')
+        break;
+    case 'marron':
+        alert('El color de la tierra')
+        break;
+    default:
+        alert('Excelente eleccion no lo tenia pensado')
+        break;
+}
 
 // 12. Realizar un programa que permita el ingreso de 2 valores numéricos y una operación.
 // Según sea la operación ingresada (suma, resta, multiplicación, división) el programa
@@ -376,32 +376,32 @@ if (persona1.edad>persona2.edad){
 // elegido división realizar la operación siempre que sea posible o mostrar un mensaje de
 // ERROR si el divisor ingresado fue 0.
 
-// let numero1 = parseInt(prompt('Ingrese un numero'))
-// let numero2 = parseInt(prompt('Ingrese el segundo numero'))
-// let operador= prompt('Ingrese un operador')
+let numero1 = parseInt(prompt('Ingrese un numero'))
+let numero2 = parseInt(prompt('Ingrese el segundo numero'))
+let operador= prompt('Ingrese un operador')
 
-// switch (operador) {
-//     case '+':
-//         alert('El resultado de la operacion es '+ (numero1+numero2) )
+switch (operador) {
+    case '+':
+        alert('El resultado de la operacion es '+ (numero1+numero2) )
         
-//         break;
-//     case '-':
-//         alert('El resultado de la operacion es '+ (numero1-numero2) )
+        break;
+    case '-':
+        alert('El resultado de la operacion es '+ (numero1-numero2) )
         
-//         break;
-//     case '*':
-//         alert('El resultado de la operacion es '+ (numero1*numero2) )
+        break;
+    case '*':
+        alert('El resultado de la operacion es '+ (numero1*numero2) )
         
-//         break;
-//     case '/':
-//         alert('El resultado de la operacion es '+ (numero1/numero2) )
+        break;
+    case '/':
+        alert('El resultado de la operacion es '+ (numero1/numero2) )
         
-//         break;
+        break;
 
-//     default:
-//         alert('Has ingresado mal un operador, los operadores permitidos son: +, -, * y /')
-//         break;
-// }
+    default:
+        alert('Has ingresado mal un operador, los operadores permitidos son: +, -, * y /')
+        break;
+}
 
 // 13. Crear un programa que permita ingresar todos los datos de tu documento nacional de
 // identidad, mostrar por pantalla un mensaje que imprima todos los datos ingresados y
@@ -410,29 +410,29 @@ if (persona1.edad>persona2.edad){
 // mensaje de registro exitoso, en caso de que la persona rechace confirmar los datos,
 // mostrar un mensaje que diga: vuelva a intentarlo en 1 mes.
 
-// let primerNombre = prompt('Escriba su primer nombre')
-// let segundoNombre = prompt('Escriba su segundo nombre')
-// let primerApellido = prompt('Escriba su primer Apellido')
-// let segundoApellido = prompt('Escriba su segundo Apellido')
-// let tipoDeSangre = prompt('Escriba su tipo de sangre')
-// let fechaDeNacimiento = prompt('Escriba su Fecha de Nacimiento')
-// alert('nombre completo: '+primerNombre+' '+segundoNombre+' '+primerApellido+' '+segundoApellido+' tipo de sangre '+tipoDeSangre+' Fecha de Nacimiento '+fechaDeNacimiento
-// )
+let primerNombre = prompt('Escriba su primer nombre')
+let segundoNombre = prompt('Escriba su segundo nombre')
+let primerApellido = prompt('Escriba su primer Apellido')
+let segundoApellido = prompt('Escriba su segundo Apellido')
+let tipoDeSangre = prompt('Escriba su tipo de sangre')
+let fechaDeNacimiento = prompt('Escriba su Fecha de Nacimiento')
+alert('nombre completo: '+primerNombre+' '+segundoNombre+' '+primerApellido+' '+segundoApellido+' tipo de sangre '+tipoDeSangre+' Fecha de Nacimiento '+fechaDeNacimiento
+)
 
-// let pregunta = confirm('estan correcto los daton?')
+let pregunta = confirm('estan correcto los daton?')
 
-// if (pregunta){
-//     let dni ={
-//         numeroDeIdentidad: 'xxxxxxxx',
-//         apellidos: primerApellido, segundoApellido,
-//         nombre: primerNombre, segundoNombre,
-//         fechaDeNac: fechaDeNacimiento,
-//         tipoDSangre: tipoDeSangre
-//     }
+if (pregunta){
+    let dni ={
+        numeroDeIdentidad: 'xxxxxxxx',
+        apellidos: primerApellido, segundoApellido,
+        nombre: primerNombre, segundoNombre,
+        fechaDeNac: fechaDeNacimiento,
+        tipoDSangre: tipoDeSangre
+    }
 
-//     console.table(dni)
-//     alert('Registro Exitoso')
+    console.table(dni)
+    alert('Registro Exitoso')
 
-// }else{
-//     alert('vuelva a intentarlo en 1 mes.')
-// }
+}else{
+    alert('vuelva a intentarlo en 1 mes.')
+}
