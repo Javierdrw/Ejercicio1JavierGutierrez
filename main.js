@@ -109,27 +109,31 @@ if (edad>=18 && altura>150 && vision>7) {
 // caso contrario a no querer comprar, mostrar mensaje de despedida.
 
 // respuesta 1
-let nombre =prompt('cual es su nombre')
-let pase = prompt('pase por favor')
-let dinDis = parseInt (prompt('cuanto dinero tiene'))
+let nombre1 =prompt('cual es su nombre')
 
-
-
-if (nombre=== 'javier') {
-    console.log('bienvenido señor Javier puede ingresar');
-    
-}else if(pase==='vip'||pase==='normal'||pase==='entrada'){
-    console.log('Bienvenido Sr '+nombre+' Puede ingresar');
-
-}else if(dinDis>= 1000){
-    let comprar = prompt('desea comprar una entrada')
-    if (comprar==='si') {
-        console.log('Venta de entrada EXITOSA Bienvenido');
+if (nombre1=== 'javier') {
+    alert('bienvenido señor Javier puede ingresar');
+   
+}else{
+    let pase = prompt('pase por favor')
+    if (pase==='vip') {
+        alert('Bienvenido puede pasar a la zona VIP')
+    } else {
+        let dinDis = parseInt (prompt('cuanto dinero tiene'))
+        if (dinDis>1000) {
+            let comprar = prompt('desea comprar una entrada')
+            if (comprar==='si') {
+                alert('Venta de entrada EXITOSA Bienvenido')
+            }else {
+                alert('hasta luego')
+            }
+        } else {
+            alert('hasta luego')
+        }
         
     }
-}else {
-    console.log('disculpe no le alcanza para la compra de una entrada hasta luego');
-}
+}    
+
 
 // respuesta 2
 // let pers1= {
